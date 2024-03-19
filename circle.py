@@ -26,9 +26,7 @@ running = True
 x = INITIAL_X_POS
 y = INITIAL_Y_POS
 
-# Main loop
 while running:  
-  # Getting all the events from OS
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       running = False
